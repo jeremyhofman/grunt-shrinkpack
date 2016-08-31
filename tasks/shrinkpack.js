@@ -19,7 +19,7 @@ module.exports = function(grunt) {
         break;
       default:
         var pwd = shelljs.pwd();
-        shelljs.exec(pwd + "\\node_modules\\.bin\\shrinkpack.cmd");
+        shelljs.exec("\"" + pwd + "\\node_modules\\.bin\\shrinkpack.cmd\"");
         break;
     }
   });
