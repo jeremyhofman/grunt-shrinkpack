@@ -30,3 +30,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 0.0.1 - Initial release
 0.0.2 - Updated this README.md file and modified the shrinkpack task registration utilized.
+0.0.3 - Added ShellJS as a dependency
+0.0.4 - Removed requirement that Shrinkpack needed to be globally installed. Added environment checking for Darwin vs. Windows environments.
+0.0.5 - Resolved use case where Jenkins could not navigate to the workspace path containing spaces.
